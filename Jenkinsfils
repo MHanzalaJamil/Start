@@ -7,14 +7,14 @@ pipeline {
                 git 'https://github.com/MHanzalaJamil/Start.git'
             }
         }
-        post {
-           success {
-                echo "success"
-            }
-            failure {
-                echo "failure"
-            }
+    }
+    post {
+        success {
+            echo "success"
+        }
+        failure {
+            echo "failure"
+        }
      }
         
-    }
 }
