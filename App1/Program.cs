@@ -1,2 +1,2 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("First .Net");
+Console.WriteLine("First .Net Project");
